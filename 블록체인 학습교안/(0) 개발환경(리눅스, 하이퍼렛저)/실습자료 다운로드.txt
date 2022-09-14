@@ -1,0 +1,19 @@
+1. 가상이미지
+MS onedrive
+
+https://ajouackr-my.sharepoint.com/:f:/g/personal/saarc_ajou_ac_kr/En6HXbKlpGNNk3IhhMkTp8UBs-56RqAdIZULEmz08M3bTg?e=pCBb32
+
+파일 ubuntu2004_fabric 1.4.ova 
+
+혼잡시 우회다운로드
+https://drive.google.com/file/d/1LhFrHDpygiQPKE5bXJHnfa52rkJ8abAq/view?usp=sharing
+
+2. 버추얼박스(가상머신)
+https://download.virtualbox.org/virtualbox/6.1.32/VirtualBox-6.1.32-149290-Win.exe
+https://download.virtualbox.org/virtualbox/6.1.32/Oracle_VM_VirtualBox_Extension_Pack-6.1.32.vbox-extpack
+
+3. 비쥬얼 스튜디오 코드
+https://code.visualstudio.com/download
+
+실습 주의사항
+- i5이상 메모리 8기가 이상, 하드디스크 60기가 이상 가상화를 지원하는 컴퓨터 필요

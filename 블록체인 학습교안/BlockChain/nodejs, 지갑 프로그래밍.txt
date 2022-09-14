@@ -1,0 +1,12 @@
+node.js
+crypto 모듈 사용 정독
+EJS 사용 https://ejs.co/#promo
+
+지갑 프로그래밍(튜토리얼)
+지갑 : https://hyperledger-fabric.readthedocs.io/en/release-2.2/developapps/wallet.html?highlight=wallet
+SDK: https://hyperledger.github.io/fabric-sdk-node/release-2.2/FabricCAServices.html
+wallet: https://hyperledger.github.io/fabric-sdk-node/release-2.2/module-fabric-network.Wallet.html
+
+enrolladmin 필요 파일 : connect.json, nodejs.fabric SDK, fabric-ca-client, fabric-network
+
+cat docker-compose.yml | grep admin

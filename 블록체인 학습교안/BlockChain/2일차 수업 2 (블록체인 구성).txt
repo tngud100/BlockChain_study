@@ -1,0 +1,28 @@
+어플리케이션
+
+블록체인 네트워크(MainNet) => 이용, 구성(개인)
+블록체인 스마트컨트랙트(Solidity, Chaincode)
+웹서비스(웹서버, 웹클라이언트, 데이터베이스, 지갑, 대시보드, 등)
+ + killer App (=Messenger, OS, Shopping, Network, SNS) 지갑 ! -> (market , 키관리, 거래소)
+
+Dapp
+= Client Application + Smart Contract
+
+world state -> Block chain
+
+블록체인 컴포넌트
+
+원장(Ledger) 
+스마트컨트렉트(Smart Contract)
+합의(Consensus Network)
+인증구조(Membership)
+트랜잭션 처리, BK결과(Events)
+시스템 관리(Systems management)
+지갑(Wallet)
+Systems integration
+
+실체 => Mainnet Program ( 프로그램 )  => source code ( 데이터 )!!!
+
+블록체인 원장구조
+블록(= 이전 블록의 해시값 + 블록생성시간 + 트랜잭션 해쉬값 + 트랜잭션( 사용자 블록))
+

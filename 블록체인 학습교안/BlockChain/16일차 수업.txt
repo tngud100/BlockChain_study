@@ -1,0 +1,36 @@
+Basic Network 뜯어보기
+1. 환경설정 (fabrics-samples/bin/도커이미지,go,node,docker)
+2. 준비물생성
+3. 네트워크 구성
+4. 채널생성 -> peer 조인
+구조
+docker network
+container
+channel 구성
+
+teardown.sh
+docker rm -f $(docker ps -aq)
+docker rmi -f $(docker images dev-* -q)
+docker network prune
+
+리눅스 재부팅 : sudo reboot
+숨김파일 보기 : ls -a
+디렉토리 삭제 : rm -rf 폴더이름/
+디렉토리 생성 : mkdir 폴더이름
+실행파일 권한 명령어: chmod +x *.sh
+네트워크 확인: docker network ls
+네트워크 구성 보기:docker network inspect 네트워크명
+
+
+완성본
+github.com/saarc/first-project/
+
+cd ~/dev
+mkdir sample
+cd sample
+git clone https://github.com/saarc/first-project
+cd first-project
+rm -rf application
+
+
+7051, 7050, 7054, 5984

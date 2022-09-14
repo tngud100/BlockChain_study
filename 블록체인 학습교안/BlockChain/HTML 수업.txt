@@ -1,0 +1,23 @@
+HTML
+<a href="주소"> </a>
+<img src="주소"/>
+
+
+<header>
+<nav>
+<section>,<article>,<aside>
+<footer>
+
+
+중요도 : !important > 개발자 css > 웹 브라우저 기본 css
+명시도 : style > id(#) > class(.) > 태그(tag)
+
+무친 디자인 HTML
+https://bruno-simon.com/
+
+jquery 사이트
+https://www.codingfactory.net/jquery-table-of-contents
+https://www.w3schools.com/jquery/default.asp
+애니메이션
+https://wowjs.uk/
+

@@ -1,0 +1,12 @@
+document.wirte() ==> 출력기능 write\n Or <br> 줄바꿈 가능
+
+ <img src="./character.png" alt = "이미지" width="150" height="100"
+    onmouseover="this.src='./balloon2.png'"
+    onmouseout="this.src='./character.png'"/>
+ ==> 마우스 on, over 이벤트 리스너
+
+prompt("메시지","디폴트 입력값") ==> 사용자의 문자열을 입력 받아 리턴
+comfirm("메시지") ==> 확인, 취소 존재  입력값 x
+alert("메시지") ==> 오로지 문자 전달
+
+객체, Class => 프로토타입 ( 프로퍼티 + 메소드 )

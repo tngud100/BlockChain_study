@@ -1,0 +1,10 @@
+Json
+타입
+a string {"name":"john"}
+a number {"age":30}
+an object
+an array
+a boolean
+null
+
+Json.parse => 객체화

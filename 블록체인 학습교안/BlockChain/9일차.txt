@@ -1,0 +1,8 @@
+if, for, string
+문자열 포인터 &s
+
+slice 용량 제한 x
+배열에 용량 제한
+슬라이스(Dictionary) value : key
+
+배열 슬라이스 맵

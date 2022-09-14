@@ -1,0 +1,30 @@
+linux ubuntu fablic 1.4
+
+window vscode 연결 -- Linux
+
+bstudent/ sys1234
+
+nodejs 14 설치 -> go 1.15설치
+
+curl 설치
+
+docker 설치
+
+홈디렉터리/home/username
+curl -sSL http://bit.ly/2ysbOFE | bash -s – 1.4.12 1.4.9 0.4.22
+
+
+host: localhost
+root: /home/bstudent
+username: bstudent
+password: sys1234
+
+echo $PATH
+
+export PATH=""
+
+export GOPATH=~/go
+
+# export PATH=$PATH:~/fabric-samples/bin
+
+source ~/.profile

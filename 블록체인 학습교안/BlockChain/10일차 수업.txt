@@ -1,0 +1,2 @@
+클래스 예제
+https://golangkorea.github.io/post/go-start/object-oriented/

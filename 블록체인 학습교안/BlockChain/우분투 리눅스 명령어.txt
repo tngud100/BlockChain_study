@@ -1,0 +1,49 @@
+1wei = 1/10^10ETH
+
+1gwei = 0.000000001 ETH
+	0.0 0000 0001 ETH.
+
+
+
+리눅스 재부팅 : sudo reboot
+숨김파일 보기 : ls -a
+디렉토리 삭제 : rm -rf 폴더이름
+디렉토리 생성 : mkdir 폴더이름
+실행파일 권한 명령어: chmod +x *.sh
+네트워크 확인: docker network ls
+네트워크 구성 보기:docker network inspect 네트워크명
+
+네트워크 확인 docker명령어
+docker ps -a 		컨테이너 
+docker network ls		네트워크
+docker images dev-*	이미지
+
+네트워크 종료
+docker rm -f $(docker ps -aq)
+docker rmi -f $(docker images dev-* -q)
+docker network qurne
+
+실행
+./start.sh
+
+메모장
+nano json파일이름.
+
+
+
+
+geth -datadir ./geth init ./genesis.json 
+geth -networkid 999 -nodiscover -maxpeers 0 -datadir ./geth console
+
+geth --networkid 999 --nodiscover --maxpeers 0 --datadir ./geth console
+
+password#0389
+password#0399
+password#0400
+
+geth -networkid 999 -nodiscover -maxpeers 0 -datadir ./geth console 2>> ./geth/geth1.log
+geth attach rpc:http://localhost:8545
+
+패스워드 dat존재 해야함.
+언락한 상태에서, 다른 콘솔에서 마이닝 후 네트워크 연결 콘솔 열기
+geth --networkid 999 --nodiscover --maxpeers 0 --datadir ./geth --mine --miner.threads 1 --allow-insecure-unlock --unlock 0 --password ./password.dat --http --http.addr "0.0.0.0" --http.port 8545 --http.corsdomain "*" --http.api "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --verbosity 1 2>> ./geth/geth4.log

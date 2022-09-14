@@ -1,0 +1,45 @@
+체인코드 뜯어보기
+이론
+구현해 보기
+basic- 네트워크 뜯어보기
+
+fabcar 예제 살펴보기
+(함수)
+initLedger
+createCar 	CAR key+params(5)  maker, model, color, owner
+queryCar
+changeCarOwner
+queryAllCars
+readTxHistory
+main
+
+네트워크 확인 docker명령어
+docker ps -a 		컨테이너 
+docker network ls		네트워크
+docker images dev-*	이미지
+
+네트워크 종료
+docker rm -f $(docker ps -aq)
+docker rmi -f $(docker images dev-* -q)
+docker network qurne
+
+
+cd ~/go/src/github.com/hyperledger/fabric/
+git checkout tags/v1.4.12
+2시간 25분 분터
+
+./start.sh
+docker-compose -f docker-compose.yml up -d cli
+docker exec cli peer node status
+docker exec cli peer channel list
+docker exec cli peer chaincode install -n fabcar -v 1.0 -p github.com/fabcar/go
+docker exec cli peer chaincode list --installed
+docker exec cli peer chaincode instantiate -n fabcar -v 1.0 -c '{"Args":[""]}' -C mychannel -P 'OR ("Org1MSP.member")'
+docker exec peer chain code list --instantiated -C mychannel
+docker exec cli peer chainnode list --instantiate -C mychannel
+docker exec cli peer chainnode query -n fabcar -C mychannel -c '{"Args":["queryAllCars"]}'
+docker exec cli peer chainnode invoke -n fabcar -C mychannel -c '{"Args":["queryAllCars"]}'
+docker exec cli peer chaincode query -n fabcar -C mychannel -c '{"Args":["queryAllCars"]}'
+
+
+changeCarOwner -> invoke, query
